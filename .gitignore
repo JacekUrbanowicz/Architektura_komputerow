@@ -5,3 +5,13 @@
 *.userosscache
 *.sln.docstates
 *.vcxproj.user
+
+# Foldery kompilacji Visual Studio
+Debug/
+Release/
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
