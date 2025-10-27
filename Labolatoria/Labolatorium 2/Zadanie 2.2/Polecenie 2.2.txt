@@ -1,0 +1,8 @@
+Zmodyfikowaæ dane programu podanego na str. 9-10 w taki sposób, by 
+wszystkie litery tekstu by³y wyœwietlane poprawnie. Wskazówka: zast¹piæ niektóre litery 
+alfabetu  ³aciñskiego przez odpowiednie kody wyra¿one w postaci liczbowej (dziesiêtnej lub 
+szesnastkowej). Tabela kodów podana jest na str. 4. 
+Uwaga: w zapisie asemblerowym ka¿da liczba szesnastkowa powinna zaczynaæ siê od cyfry 
+0, 1, 2, ..., 9. Jeœli liczba szesnastkowa zaczyna siê od cyfry A, B, ..., F, to nale¿y przed liczb¹ 
+nale¿y wprowadziæ dodatkowe 0, np. liczbê F3H w kodzie asemblerowym trzeba zapisaæ w 
+postaci 0F3H. Dodatkowe 0 nie ma wp³ywu na wartoœæ liczby.
