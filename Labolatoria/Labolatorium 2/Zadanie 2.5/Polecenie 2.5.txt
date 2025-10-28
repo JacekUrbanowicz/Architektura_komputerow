@@ -1,0 +1,15 @@
+Zadanie 2.5. 
+Uruchomiæ podany wy¿ej program przyk³adowy, a nastêpnie przebudowaæ go w 
+taki sposób by zamiana ma³ych liter na wielkie obejmowa³a litery specyficzne dla jêzyka 
+polskiego (¹, ¥, æ, Æ, ê, ...).  
+Wskazówka: po dopisaniu fragmentu programu, w którym nast¹pi zamiana liter specyficznych 
+dla jêzyka polskiego (¹, æ, ê, ...), asembler bêdzie sygnalizowa³ przekroczenie rozmiaru pêtli: 
+
+error A2075: jump destination too far : by 24 byte(s) 
+
+B³¹d ten wynika z formatu rozkazu loop, który mo¿e byæ stosowany do sterowania pêtl¹ o 
+rozmiarze nie przekraczaj¹cym 127 bajtów. Jeœli liczba bajtów zajmowanych przez pêtlê jest 
+wiêksza od 127, to zamiast rozkazu loop  ptl  nale¿y zastosowaæ dwa poni¿sze rozkazy:
+
+dec  ecx 
+jnz  ptl
