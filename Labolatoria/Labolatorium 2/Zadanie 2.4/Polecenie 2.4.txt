@@ -1,0 +1,16 @@
+Zadanie 2.4. 
+Za pomoc¹ Notatnika (ang. notepad) w systemie Windows napisaæ tekst 
+z³o¿ony z kilku wyrazów, w których wystêpuj¹ tak¿e litery specyficzne dla alfabetu jêzyka 
+polskiego. Nastêpnie zapamiêtaæ ten tekst w pliku test_utf8.txt (wybraæ opcjê Plik / 
+Zapisz jako…) w bie¿¹cym katalogu na dysku D:\, przy czym nale¿y wybraæ kodowanie 
+UTF-8, tak jak pokazano na poni¿szym rysunku.
+
+(Rysunek przedstawia zapis pliku w Notatniku z wybran¹ opcj¹ kodowania UTF-8)
+
+Nastêpnie uruchomiæ program Total Commander,  odszukaæ utworzony plik 
+test_utf8.txt i wyœwietliæ zawartoœæ pliku poprzez naciœniêcie klawisza F3. W nowym 
+oknie wybraæ z menu Options wybraæ Hex. 
+Zidentyfikowaæ bajty BOM na pocz¹tku pliku i porównaæ z podanymi na str. 6. Nastêpnie 
+porównaæ kody liter z kodami podanymi w tabeli na str. 4. Zapisaæ na kartce w postaci liczb 
+szesnastkowych bajty BOM i kody UTF–8 dwóch liter specyficznych dla alfabetu jêzyka 
+polskiego.
