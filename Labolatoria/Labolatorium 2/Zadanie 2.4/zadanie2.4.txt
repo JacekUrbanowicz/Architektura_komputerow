@@ -1,0 +1,7 @@
+Analiza pliku txt zapisanego w UTF-8 z BOM:
+
+Wszystkie podane symbole s¹ zapisane w systemie szesnastkowym (hexadecimal).
+
+Bajty BOM - EF BB BF (Kodowanie w UTF-8, znajduj¹ sie na pocz¹tku pliku, zgadza siê)
+Literka ¯ - C5 BB (Kodowanie w UTF-8, zgadza siê z tabel¹ w pdfie)
+Literka ¹ - C4 85 (Kodowanie w UTF-8, zgadza siê z tabel¹ w pdfie)
