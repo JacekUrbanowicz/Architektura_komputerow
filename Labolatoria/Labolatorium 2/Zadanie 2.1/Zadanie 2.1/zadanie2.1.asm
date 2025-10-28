@@ -32,7 +32,7 @@ _main PROC
     add  esp, 12        ; usuniêcie parametrów ze stosu 
  
 ; zakoñczenie wykonywania programu 
- push  dword PTR 0     ; kod powrotu programu  
- call  _ExitProcess@4   
+    push  dword PTR 0     ; kod powrotu programu  
+    call  _ExitProcess@4   
 _main ENDP 
 END
