@@ -1,0 +1,5 @@
+Zadanie 2.6. 
+Zmodyfikowaæ podany wy¿ej program przyk³adowy w taki sposób, by tekst 
+wczytany z klawiatury zosta³ wyœwietlony w postaci komunikatu za pomoc¹ funkcji 
+MessageBoxA. W wyœwietlanym komunikacie mog¹ wyst¹piæ wszystkie litery alfabetu 
+jêzyka polskiego.
