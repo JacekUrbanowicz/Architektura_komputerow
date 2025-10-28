@@ -1,0 +1,6 @@
+Zadanie 2.1.
+Zmodyfikowaæ dane programu przyk³adowego, który zosta³ podany w instrukcji 
+æw. 1 (str. 7) w taki sposób, by wszystkie litery tekstu powitalnego by³y wyœwietlane 
+poprawnie. Wskazówka: zast¹piæ litery specyficzne dla alfabetu jêzyka polskiego podane w 
+postaci zwyk³ych liter przez odpowiednie kody wyra¿one w postaci liczbowej (dziesiêtnej lub 
+szesnastkowej).
