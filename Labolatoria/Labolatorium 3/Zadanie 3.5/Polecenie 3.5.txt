@@ -1,0 +1,7 @@
+Zadanie 3.5. 
+Zmodyfikowaæ podprogram wyswietl_EAX_hex w taki sposób, by w 
+wyœwietlanej liczbie szesnastkowej zera nieznacz¹ce z lewej strony zosta³y zast¹pione 
+spacjami.
+
+(Zera nieznacz¹ce z lewej strony s¹ zastêpowane gwiazdkami (*) zamiast spacji ( )
+w celu ³atwiejszego sprawdzenia dzia³ania programu)
