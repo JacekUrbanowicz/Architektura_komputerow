@@ -1,0 +1,4 @@
+Zadanie 3.4. 
+Napisaæ program w asemblerze, który wczyta liczbê dziesiêtn¹ z klawiatury i  
+wyœwietli na ekranie jej reprezentacjê w systemie szesnastkowym. W programie wykorzystaæ 
+podprogramy wczytaj_do_EAX  i wyswietl_EAX_hex.
