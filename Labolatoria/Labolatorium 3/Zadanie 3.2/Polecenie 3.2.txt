@@ -4,3 +4,48 @@ Wskazówka: rozkazy PUSHA i POPA nie nadaj¹ siê do tego podprogramu (dlaczego?) —
 zamiast tych rozkazów, na pocz¹tku podprogramu trzeba zapisaæ na stosie rejestry ogólnego 
 przeznaczenia u¿ywane w podprogramie, a w koñcowej czêœci podprogramu odtworzyæ te 
 rejestry. Nie trzeba zapisywaæ zawartoœci rejestrów EAX i ESP.
+
+Program:
+; wczytywanie liczby dziesiêtnej z klawiatury – po 
+; wprowadzeniu cyfr nale¿y nacisn¹æ klawisz Enter 
+ 
+; liczba po konwersji na postaæ binarn¹ zostaje wpisana 
+; do rejestru EAX 
+ 
+; deklaracja tablicy do przechowywania wprowadzanych cyfr 
+; (w obszarze danych) 
+obszar  db 12 dup (?) 
+dziesiec  dd 10 ; mno¿nik
+—   —   —   —   —   —   —   —   —   —   —   — 
+
+    ; max iloœæ znaków wczytywanej liczby 
+    push  dword PTR 12 
+  
+    push  dword PTR OFFSET obszar ; adres obszaru pamiêci 
+    push  dword PTR 0; numer urz¹dzenia (0 dla klawiatury) 
+    call  __read ; odczytywanie znaków z klawiatury 
+                 ; (dwa znaki podkreœlenia przed read) 
+    add  esp, 12 ; usuniêcie parametrów ze stosu
+
+    ; bie¿¹ca wartoœæ przekszta³canej liczby przechowywana jest w rejestrze EAX
+    ; przyjmujemy 0 jako wartoœæ pocz¹tkow¹ 
+    mov   eax, 0   
+    mov  ebx, OFFSET obszar ; adres obszaru ze znakami
+
+    pobieraj_znaki: 
+        mov  cl, [ebx] ; pobranie kolejnej cyfry w kodzie 
+                        ; ASCII 
+        inc  ebx  ; zwiêkszenie indeksu 
+        cmp  cl,10 ; sprawdzenie czy naciœniêto Enter 
+        je  byl_enter ; skok, gdy naciœniêto Enter 
+        sub  cl, 30H ; zamiana kodu ASCII na wartoœæ cyfry 
+        movzx ecx, cl ; przechowanie wartoœci cyfry w 
+        ; rejestrze ECX 
+ 
+        ; mno¿enie wczeœniej obliczonej wartoœci razy 10 
+        mul  dword PTR dziesiec         
+        add  eax, ecx ; dodanie ostatnio odczytanej cyfry 
+        jmp  pobieraj_znaki ; skok na pocz¹tek pêtli
+
+    byl_enter: 
+     ; wartoœæ binarna wprowadzonej liczby znajduje siê teraz w rejestrze EAX
