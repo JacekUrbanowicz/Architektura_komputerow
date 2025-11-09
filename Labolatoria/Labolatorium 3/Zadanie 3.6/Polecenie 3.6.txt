@@ -1,0 +1,4 @@
+Zadanie 3.6. 
+Napisaæ program w asemblerze, który wczyta liczbê szesnastkow¹ z klawiatury 
+i  wyœwietli na ekranie jej reprezentacjê w systemie dziesiêtnym. W programie wykorzystaæ 
+podprogramy wczytaj_do_EAX_hex  i wyswietl_EAX. 
