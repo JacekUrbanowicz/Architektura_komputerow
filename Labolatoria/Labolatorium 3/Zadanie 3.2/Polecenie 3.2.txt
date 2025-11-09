@@ -1,0 +1,6 @@
+Zadanie 3.2. 
+Przekszta³ciæ powy¿szy fragment programu do postaci podprogramu o nazwie wczytaj_do_EAX. 
+Wskazówka: rozkazy PUSHA i POPA nie nadaj¹ siê do tego podprogramu (dlaczego?) — 
+zamiast tych rozkazów, na pocz¹tku podprogramu trzeba zapisaæ na stosie rejestry ogólnego 
+przeznaczenia u¿ywane w podprogramie, a w koñcowej czêœci podprogramu odtworzyæ te 
+rejestry. Nie trzeba zapisywaæ zawartoœci rejestrów EAX i ESP.
