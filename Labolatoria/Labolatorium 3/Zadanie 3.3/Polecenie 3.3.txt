@@ -1,0 +1,4 @@
+Zadanie 3.3. 
+Napisaæ program, który wczyta z klawiatury liczbê dziesiêtn¹ mniejsz¹ od 
+60000 i wyœwietli na ekranie kwadrat tej liczby. W programie wykorzystaæ podprogramy 
+wczytaj_do_EAX  i  wyswietl_EAX.
