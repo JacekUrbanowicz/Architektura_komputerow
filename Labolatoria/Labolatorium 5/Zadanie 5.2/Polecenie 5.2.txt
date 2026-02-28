@@ -1,0 +1,12 @@
+Zadanie 5.2.
+Napisaæ podprogram w asemblerze przystosowany do wywo³ywania z poziomu 
+jêzyka C. Prototyp funkcji implementowanej przez ten podprogram ma postaæ:
+
+float  nowy_exp  (float  x); 
+
+Podprogram ten powinien obliczyæ sumê 20 pocz¹tkowych wyrazów szeregu Maclaurina 
+Napisaæ tak¿e krótki program przyk³adowy w jêzyku C ilustruj¹cy sposób wywo³ywania tego 
+podprogramu. 
+
+Wskazówka: Podprogram (jeœli zwraca wartoœæ float lub double) powinien pozostawiæ 
+obliczon¹ wartoœæ na wierzcho³ku stosu rejestrów koprocesora.
