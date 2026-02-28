@@ -1,0 +1,15 @@
+Zadanie 5.4.
+Napisaæ podprogram w asemblerze przystosowany do wywo³ywania z poziomu jêzyka C. 
+Podprogram powinien zamieniæ dwie liczby ca³kowite typu int umieszczone w 
+tablicy calkowite na dwie liczby zmiennoprzecinkowe typu  float i umieœciæ je w tablicy 
+zmienno_przec. Napisaæ tak¿e krótki program w jêzyku C ilustruj¹cy sposób 
+wywo³ywania obu wersji podprogramu. 
+Prototyp funkcji implementowanej przez podprogram ma postaæ: 
+
+void int2float (int * calkowite, float * zmienno_przec); 
+
+Zamianê na format float nale¿y zrealizowaæ za pomoc¹ rozkazu cvtpi2ps (z grupy SSE), który 
+zamienia dwie liczby ca³kowite typu int na dwie liczby typu float. Wartoœci wynikowe zostaj¹ 
+zapisane w rejestrze SSE, a operandem Ÿród³owym mo¿e byæ 64-bitowa lokacja pamiêci, np.  
+
+cvtpi2ps xmm5, qword PTR [esi]
