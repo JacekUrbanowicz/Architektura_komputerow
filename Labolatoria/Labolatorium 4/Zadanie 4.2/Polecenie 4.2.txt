@@ -1,0 +1,4 @@
+Zadanie 4.2.
+Wzoruj¹c siê przyk³adem funkcji plus_jeden napisaæ w asemblerze kod 
+funkcji liczba_przeciwna, która wyznaczy liczbê przeciwn¹ do znajduj¹cej siê w 
+zmiennej. Napisaæ krótki program w jêzyku C do testowania opracowanej funkcji.
