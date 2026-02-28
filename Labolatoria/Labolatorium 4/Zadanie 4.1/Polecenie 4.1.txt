@@ -1,0 +1,8 @@
+Zadanie 4.1.
+Napisaæ podprogram szukaj4_max, stanowi¹cy rozszerzenie przyk³adu
+podanego na str. 8. Prototyp podprogramu ma postaæ:
+
+int szukaj4_max (int a, int b, int c, int d);
+
+Podprogram powinien wyznaczyæ najwiêksz¹ liczbê spoœród podanych jako parametry 
+podprogramu. Napisaæ tak¿e krótki program w jêzyku C ilustruj¹cy sposób wywo³ywania podprogramu.
