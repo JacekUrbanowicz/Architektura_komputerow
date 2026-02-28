@@ -1,0 +1,9 @@
+Zadanie 5.5.
+Napisaæ podprogram w asemblerze przystosowany do wywo³ywania z poziomu 
+jêzyka C. Prototyp funkcji implementowanej przez ten podprogram ma postaæ: 
+
+void pm_jeden (float * tabl); 
+
+Gdzie tabl jest tablic¹ zawieraj¹c¹ cztery liczby zmiennoprzecinkowe typu float. 
+Podprogram ten, korzystaj¹c z rozkazu ADDSUBPS (grupa SSE3) powinien dodaæ 1 do 
+elementów tablicy o indeksach nieparzystych i odj¹æ 1 od pozosta³ych elementów tablicy.
