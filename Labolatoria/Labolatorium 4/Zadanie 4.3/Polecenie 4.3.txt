@@ -1,0 +1,12 @@
+Zadanie 4.3.
+Poni¿szy program w jêzyku C wczytuje liczbê ca³kowit¹ z klawiatury, nastêpnie 
+zmniejsza j¹ o 1 i wyœwietla na ekranie wynik obliczenia. Zmniejszenie liczby o 1 wykonuje 
+podprogram zakodowany w asemblerze, przystosowany do wywo³ywania z poziomu jêzyka C 
+w trybie 32-bitowym, którego prototyp na poziomie jêzyka C ma postaæ: 
+
+void  odejmij_jeden (int ** liczba); 
+
+Argument liczba jest adresem zmiennej, w której przechowywany jest adres, pod którym 
+przechowywana jest liczba (adres adresu). 
+Napisaæ podprogram w asemblerze dokonuj¹cy opisanego obliczenia i uruchomiæ program 
+sk³adaj¹cy siê z plików Ÿród³owych w jêzyku C i w asemblerze.
