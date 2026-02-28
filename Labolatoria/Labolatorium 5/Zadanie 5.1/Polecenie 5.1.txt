@@ -1,0 +1,19 @@
+Zadanie 5.1.
+Napisaæ podprogram w asemblerze przystosowany do wywo³ywania z poziomu 
+jêzyka C. Prototyp funkcji implementowanej przez ten podprogram ma postaæ:
+
+float  srednia_harm  (float  *  tablica, unsigned  int  n); 
+
+Podprogram ten powinien obliczyæ œredni¹ harmoniczn¹ 
+dla n liczb zmiennoprzecinkowych a1, a2, a3,..., an, zawartych w tablicy tablica. 
+Napisaæ tak¿e krótki program przyk³adowy w jêzyku C ilustruj¹cy sposób wywo³ywania tego 
+podprogramu.
+
+Wskazówki: 
+1. Podprogram (jeœli zwraca wartoœæ float lub double) powinien pozostawiæ obliczon¹ 
+wartoœæ na wierzcho³ku stosu rejestrów koprocesora. 
+2. W jêzyku C do wprowadzania liczb zmiennoprzecinkowych z klawiatury u¿ywa siê 
+zazwyczaj funkcji scanf lub scanf_s. W przypadku liczb typu float stosuje siê 
+format %f, a w przypadku liczb typu double — format %lf. W przypadku wyœwietlania 
+wyników za pomoc¹ funkcji printf, format %lf stosuje siê do wartoœci typu long 
+double, natomiast %f dla liczb typu float i double. 
