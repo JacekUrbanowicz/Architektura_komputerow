@@ -1,0 +1,10 @@
+Zadanie 4.5.
+Napisaæ kod asemblerowy podprogramu, przystosowanego do wywo³ywania z 
+poziomu jêzyka C w trybie 64-bitowym. Prototyp funkcji (podprogramu) ma postaæ: 
+
+__int64 suma_siedmiu_liczb (__int64  v1, __int64  v2, __int64 
+v3, __int64  v4, __int64  v5, __int64  v6, __int64  v7); 
+
+Podana funkcja powinna obliczyæ sumê wartoœci parametrów i zwróciæ j¹ jako wartoœæ 
+funkcji. Napisaæ tak¿e krótki program w jêzyku C ilustruj¹cy sposób wywo³ywania podanej 
+funkcji.
