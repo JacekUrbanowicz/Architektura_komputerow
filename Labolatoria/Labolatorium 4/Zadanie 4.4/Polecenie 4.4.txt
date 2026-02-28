@@ -1,0 +1,5 @@
+Zadanie 4.4.
+Napisaæ program przyk³adowy w jêzyku C ilustruj¹cy mo¿liwoœci 
+wykorzystania podanej funkcji do sortowania tablicy liczb ca³kowitych. Zwróciæ uwagê, ¿e w 
+po ka¿dym wywo³aniu rozmiar tablicy podany jako drugi parametr funkcji powinien zostaæ 
+zmniejszony o 1 (dlaczego ?). 
